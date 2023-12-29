@@ -51,7 +51,7 @@ function App() {
       <h1 className="text-center text-5xl text-amber-600 m-7">Recipe Finder</h1>
       <form className="text-center p-5" onSubmit={getSearch}>
         <input
-          className="text-2xl placeholder:text-slate-400 p-2 border-2 rounded w-96"
+          className="text-xl italic placeholder:text-slate-400 p-2 border-2 rounded w-80"
           placeholder="Enter ingredient (e.g.,banana)"
           ref={inputRef}
           type="text"
